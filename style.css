@@ -1,0 +1,42 @@
+/* CSS - Cascading Style Sheets*/
+
+:root {
+    /* Variáveis CSS */
+    --color-background: #ECF0F1;
+    --color-primary-dark: #3498DB;
+    --color-primary-darker: #2980B9;
+    --color-secondary: #E74C3C;
+    --color-secondary-dark: #2C3E50;
+
+    /* Tamanho da fonte padrão: 16px - 100% - 1rem */
+    font-size: 60%; /* controle das medidas rem */
+}
+
+* { 
+    margin: 0px;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh; 
+}
+
+body {
+    background-color: var(--color-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+    font: 500 1.6rem Helvetica;
+    color: var(--color-text-base);
+}
+
+
+/*----------- Footer -----------*/
