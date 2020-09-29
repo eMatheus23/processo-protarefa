@@ -35,15 +35,34 @@ body,
 input,
 button,
 textarea {
-    font: 500 1.6rem Helvetica;
+    font: 500 1.5rem Helvetica;
     color: var(--color-text-base);
 }
 
 
 /*----------- Header -----------*/
-#page-header {
+.page-header {
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+
     background-color: var(--color-primary-dark);
 }
+
+.page-header .header-menu {
+    width: 3.5rem;
+
+    position: relative;
+    bottom: 0px;
+    left: 10px;
+}
+
+.page-header .header-logo {
+    width: 18rem;
+}
+
+
 
 
 /*----------- Footer -----------*/
@@ -51,7 +70,7 @@ textarea {
     display: flex;
     width: 100%;
 
-    margin-top: 10rem;
+    margin-top: 20rem; /* Retirar */
     padding: 1rem 1.2rem;
 
     align-items: center;
