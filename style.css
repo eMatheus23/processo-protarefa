@@ -7,6 +7,7 @@
     --color-primary-darker: #2980B9;
     --color-secondary: #E74C3C;
     --color-secondary-dark: #2C3E50;
+    --color-text-in-primary: #FFF;
 
     /* Tamanho da fonte padrão: 16px - 100% - 1rem */
     font-size: 60%; /* controle das medidas rem */
@@ -25,9 +26,9 @@ body {
 
 body {
     background-color: var(--color-background);
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 body,
@@ -39,4 +40,47 @@ textarea {
 }
 
 
+/*----------- Header -----------*/
+#page-header {
+    background-color: var(--color-primary-dark);
+}
+
+
 /*----------- Footer -----------*/
+.page-footer .footer-link {
+    display: flex;
+    width: 100%;
+
+    margin-top: 10rem;
+    padding: 1rem 1.2rem;
+
+    align-items: center;
+    flex-direction: row-reverse;
+
+    background-color: var(--color-primary-dark);
+}
+
+.page-footer .footer-link a {
+    text-decoration: none;
+    color: var(--color-text-in-primary);
+
+    justify-self: center;
+}
+
+.page-footer .footer-link a img {
+    width: 1.6rem;
+    margin-left: 1rem;
+}
+
+.page-footer .footer-content {
+    background-color: var(--color-secondary-dark);
+    color: var(--color-text-in-primary);
+
+    padding: 2.2rem 2rem;
+}
+
+.page-footer .footer-content a {
+    color: var(--color-text-in-primary);
+}
+
+
