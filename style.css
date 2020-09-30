@@ -43,7 +43,7 @@ textarea {
 
 main {
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 12rem;
 
     display: flex;
     align-items: center;
@@ -57,10 +57,11 @@ section {
 
 /*----------- Header -----------*/
 .page-header {
-    width: 100vw;
+    width: 100%;
     height: 10rem;
 
     position: fixed;
+    text-align: center;
     top: 0;
     z-index: 99999;
 
@@ -68,13 +69,20 @@ section {
 }
 
 .page-header .header-menu {
-    width: 3.5rem;
-
-
+    width: 4rem;
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .page-header .header-logo {
     width: 18rem;
+
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
 }
 
 /*----------- Rotate Section -----------*/
@@ -277,13 +285,34 @@ section {
     margin-top: 3rem;
 }
 
+/*----------- Adds Section -----------*/
+#ads-section {
+    width: 60vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    margin-top: 10rem;
+}
+
+#ads-section img {
+    width: 100%;
+}
+
+#ads-section p {
+    font-size: 1.2rem;
+    opacity: 60%;
+
+    line-height: 1.8rem;
+}
 
 /*----------- Footer -----------*/
 .page-footer .footer-link {
     display: flex;
     width: 100%;
 
-    margin-top: 20rem; /* Retirar */
+    margin-top: 15rem; /* Retirar */
     padding: 1rem 1.2rem;
 
     align-items: center;
