@@ -211,7 +211,71 @@ section {
     
 }
 
+/*----------- Texts Section -----------*/
+#texts {
+    width: 90vw;
+}
 
+#texts h3 {
+    font-size: 2.2rem;
+    font-weight: 400;
+
+    color: var(--color-primary-darker);
+
+    margin-bottom: 1rem;
+}
+
+#texts p {
+    font-size: 1.7rem;
+
+    margin-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    border-bottom: 1px solid var(--color-secondary-gray-lighter);
+}
+
+/*----------- Arts Section -----------*/
+#art {
+    width: 90vw;
+}
+
+#art h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+
+    color: var(--color-secondary);
+}
+
+#art .art-article {
+    margin-top: 2.5rem;
+    display: flex;
+}
+
+#art .art-article img {
+    width: 45%;
+
+    margin-right: 5%;
+}
+
+#art .art-description {
+    padding-top: 1rem;
+}
+
+#art .art-description  h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    color: var(--color-secondary);
+
+    margin-bottom: .8rem;
+}
+
+#art .art-description p {
+    font-size: 1.8rem;
+}
+
+#art .extra-margin {
+    margin-top: 3rem;
+}
 
 
 /*----------- Footer -----------*/
