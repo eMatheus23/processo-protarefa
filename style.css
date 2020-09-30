@@ -6,6 +6,7 @@
     --color-primary-dark: #3498DB;
     --color-primary-darker: #2980B9;
     --color-secondary: #E74C3C;
+    --color-secondary-gray: #9B9B9B;
     --color-secondary-dark: #2C3E50;
     --color-text-in-primary: #FFF;
 
@@ -39,13 +40,28 @@ textarea {
     color: var(--color-text-base);
 }
 
+main {
+    width: 100%;
+    margin-top: 10rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section {
+    margin-top: 5rem;
+}
 
 /*----------- Header -----------*/
 .page-header {
-    width: 100%;
+    width: 100vw;
+    height: 10rem;
 
     position: fixed;
     top: 0;
+    z-index: 99999;
 
     background-color: var(--color-primary-dark);
 }
@@ -53,15 +69,106 @@ textarea {
 .page-header .header-menu {
     width: 3.5rem;
 
-    position: relative;
-    bottom: 0px;
-    left: 10px;
+
 }
 
 .page-header .header-logo {
     width: 18rem;
 }
 
+/*----------- Rotate Section -----------*/
+#rotate {
+    width: 90vw;
+}
+
+#rotate .rotate-img {
+    width: 100%;
+    position: relative;
+}
+
+#rotate img {
+    width: 90vw;
+}
+
+#rotate .rotate-img-subtitle {
+    width: 60%;
+
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-in-primary);
+
+    position: absolute;
+    left: 0;
+    bottom: 2.2rem;
+}
+
+#rotate .rotate-img-subtitle p {
+    margin-left: 1rem;
+
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+#rotate .rotate-title {
+    margin-top: 1.2rem;
+
+    font-size: 2.7rem;
+    font-weight: 600;
+
+    color: var(--color-secondary-dark);
+}
+
+#rotate .rotate-selector {
+    width: 100%;
+    height: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rotate .rotate-dots {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+
+    margin: 0 4.5px;
+
+    background-color: var(--color-secondary-gray);
+
+}
+
+#rotate .dot-selected {
+    background-color: var(--color-primary-dark)
+}
+
+/*----------- Highlights -----------*/
+#highlights {
+    width: 90vw;
+}
+
+#highlights .highlight-img {
+    width: 100%;
+    position: relative;
+
+    margin-bottom: 2.5rem;
+}
+
+.highlight-img-subtitle {
+    background-color: var(--color-secondary);
+    color: var(--color-text-in-primary);
+
+    position: absolute;
+    left: 0;
+    bottom: 2.2rem;
+}
+
+.highlight-img-subtitle p {
+    margin-left: 1rem;
+    margin-right: 5rem;
+
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+}
 
 
 
@@ -84,6 +191,8 @@ textarea {
     color: var(--color-text-in-primary);
 
     justify-self: center;
+
+    font-size: 1.8rem;
 }
 
 .page-footer .footer-link a img {
@@ -96,6 +205,7 @@ textarea {
     color: var(--color-text-in-primary);
 
     padding: 2.2rem 2rem;
+
 }
 
 .page-footer .footer-content a {
