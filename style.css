@@ -60,6 +60,7 @@ section {
     position: fixed;
     text-align: center;
     top: 0;
+    left: 15px;
     z-index: 99999;
 
     background-color: var(--color-primary-dark);
@@ -305,6 +306,10 @@ section {
 }
 
 /*----------- Footer -----------*/
+.page-footer {
+    width: 100vw;
+
+}
 .page-footer .footer-link {
     display: flex;
     width: 100%;
@@ -345,3 +350,12 @@ section {
 }
 
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+}
