@@ -52,6 +52,18 @@ section {
     margin-top: 3rem;
 }
 
+/*----------- Bootstrap -----------*/
+.container {
+    width: 100%;
+    max-width: 100%;
+    /* padding: 0; */
+}
+
+.col-sm-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 /*----------- Header -----------*/
 .page-header {
     width: 100%;
@@ -60,7 +72,6 @@ section {
     position: fixed;
     text-align: center;
     top: 0;
-    left: 15px;
     z-index: 99999;
 
     background-color: var(--color-primary-dark);
@@ -69,7 +80,7 @@ section {
 .page-header .header-menu {
     width: 4rem;
     position: absolute;
-    left: 2rem;
+    left: 3.5rem;
     top: 50%;
     transform: translate(-50%, -50%);
 }
@@ -83,6 +94,15 @@ section {
     transform: translate(-50%, 0);
 }
 
+.page-header .header-description {
+    display: none;
+}
+
+.page-header .buttons {
+    display: none;
+}
+
+
 /*----------- Rotate Section -----------*/
 #rotate {
     width: 90vw;
@@ -94,7 +114,7 @@ section {
 }
 
 #rotate img {
-    width: 90vw;
+    width: 100%;
 }
 
 #rotate .rotate-img-subtitle {
@@ -172,15 +192,16 @@ section {
     color: var(--color-text-in-primary);
 
     position: absolute;
-    left: 0;
-    bottom: 2.2rem;
+    left: 15px;
+    bottom: 1rem;
 }
 
 .highlight-img-subtitle p {
+    margin-top: 1rem;
     margin-left: 1rem;
-    margin-right: 5rem;
+    margin-right: 3rem;
 
-    line-height: 2.5rem;
+    line-height: .8rem;
     font-size: 1.5rem;
 }
 /*----------- News Section -----------*/
@@ -307,7 +328,7 @@ section {
 
 /*----------- Footer -----------*/
 .page-footer {
-    width: 100vw;
+    width: 100%;
 
 }
 .page-footer .footer-link {
@@ -351,8 +372,49 @@ section {
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+    /*----------- Header -----------*/
+    .page-header h2 {
+        display: initial;
+        color: var(--color-text-in-primary);
+        font-size: 1.4rem;
 
+        font-weight: 400;
+    }
+
+    .page-header .header-description, 
+    .page-header .buttons {
+        display: flex;
+        align-items: flex-end;
+
+        padding: 0 0;
+        padding-bottom: 1rem;
+    }
+
+    .page-header button {
+        background-color: var(--color-background);
+    
+        width: 30px;
+        height: 30px;
+        border-radius: 4px;
+        border: 0;
+    
+        padding: 0;
+        margin: 0.5rem;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .page-header button img {
+       width: 1.5rem;
+    }
+    
+    .page-header button p {
+        display: none;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
