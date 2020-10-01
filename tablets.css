@@ -112,6 +112,10 @@
   }
 
   /*----------- Footer -----------*/
+  footer {
+      margin-left: -55px;
+  }
+
   .footer-logo {
     display: initial;
 }
