@@ -1,0 +1,118 @@
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 576px) {
+  .container {
+      padding-left: 55px;
+      padding-right: 55px;
+  }
+  /*----------- Header -----------*/
+  .page-header {
+    height: 9rem;
+
+    margin-left: -55px;
+  }
+
+  .page-header .header-menu {
+    margin-left: 1rem;
+  }
+
+  .page-header .header-logo {
+    width: 15rem;
+
+    left: 55%;
+  }
+
+  .page-header h2 {
+    display: initial;
+    color: var(--color-text-in-primary);
+    font-size: 1.4rem;
+
+    font-weight: 400;
+  }
+
+  .page-header .header-description,
+  .page-header .buttons {
+    display: flex;
+    align-items: flex-end;
+
+    padding: 0 0;
+    padding-bottom: 1rem;
+  }
+
+  .page-header .buttons {
+    justify-content: center;
+  }
+
+  .page-header button {
+    background-color: var(--color-background);
+
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 0;
+
+    padding: 0;
+    margin: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page-header button img {
+    width: 1.5rem;
+  }
+
+  .page-header button p {
+    display: none;
+  }
+
+  /*----------- Rotate Section -----------*/
+  #rotate .rotate-img-subtitle {
+    width: 45%;
+
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-in-primary);
+
+    left: 2rem;
+    bottom: 8rem;
+  }
+
+  #rotate .rotate-title-inside {
+    display: initial;
+
+    position: absolute;
+    left: 2rem;
+    bottom: 0.6rem;
+
+    color: var(--color-text-in-primary);
+    font-weight: 700;
+    font-size: 2.2rem;
+  }
+
+  #rotate .rotate-title {
+    display: none;
+  }
+
+  /*----------- News Section -----------*/
+  #news-section p {
+    height: 10rem;
+  }
+
+  /*----------- Arts Section -----------*/
+  .art .art-article {
+    margin-top: 1.2rem;
+    display: flex;
+  }
+
+  /*----------- Adds Section -----------*/
+
+  #ads-section {
+    margin-top: 8rem;
+  }
+
+  /*----------- Footer -----------*/
+  .footer-logo {
+    display: initial;
+}
+}
