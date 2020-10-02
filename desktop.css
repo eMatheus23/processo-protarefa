@@ -129,5 +129,18 @@
     #highlights h3 {
         display: initial;
         font-size: 2.8rem;
+        margin-bottom: 2.2rem;
     }
+
+    /*----------- Adds Section -----------*/
+    .notad-desktop {
+        display: initial;
+    }
+
+    /*----------- News Section -----------*/
+    #news-section h3 {
+        font-size: 2.8rem;
+        margin-bottom: 0;
+      }
+      
 }
