@@ -1,0 +1,58 @@
+/* CSS - Cascading Style Sheets*/
+/* Large devices (992px and up) */
+
+@media (min-width: 992px) {
+    main {
+        margin-top: 16rem;
+    }
+    /*----------- Header -----------*/
+    .page-header {
+        height: 12rem;
+    
+    }
+
+    .page-header .header-menu {
+        width: 5rem;
+        left: 11rem;
+    }
+
+    .page-header .header-logo {
+        width: 24rem;
+        left: 80%;
+    }
+
+    .page-header .header-description {
+        padding-bottom: 3rem;
+    }
+
+    .header-description h2 {
+        margin-left: 8rem;
+        font-size: 1.7rem;
+    }
+
+    .page-header .buttons {
+      align-items: center;
+      padding-bottom: 0;
+    }
+  
+
+    .page-header button {
+        width: 9.5rem;
+
+        margin: 1.5rem;
+
+    }
+    .page-header button img {
+        width: 1.9rem;
+    }
+
+    .page-header button p {
+        display: initial;
+
+        margin-bottom: 0;
+        margin-left: .6rem;
+
+        color: #385490;
+        font-size: 1rem;
+    }
+}

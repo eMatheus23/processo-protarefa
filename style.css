@@ -3,6 +3,7 @@
 :root {
   /* Variáveis CSS */
   --color-background: #ecf0f1;
+  --color-background-white: #ffffff;
   --color-primary-dark: #3498db;
   --color-primary-darker: #2980b9;
   --color-secondary: #e74c3c;
