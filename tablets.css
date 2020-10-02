@@ -1,6 +1,6 @@
 /* CSS - Cascading Style Sheets*/
-/* Small devices (576px and up) */
-@media (min-width: 576px) {
+/* Small devices (768px and up) */
+@media (min-width: 768px) {
   .container {
     padding-left: 55px;
     padding-right: 55px;
