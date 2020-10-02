@@ -1,8 +1,8 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 576px) {
   .container {
-      padding-left: 55px;
-      padding-right: 55px;
+    padding-left: 55px;
+    padding-right: 55px;
   }
   /*----------- Header -----------*/
   .page-header {
@@ -49,6 +49,7 @@
     height: 30px;
     border-radius: 4px;
     border: 0;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
 
     padding: 0;
     margin: 0.5rem;
@@ -109,14 +110,43 @@
 
   #ads-section {
     margin-top: 8rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   /*----------- Footer -----------*/
-  footer {
-      margin-left: -55px;
+  .footer-container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .footer-link,
+  .footer-content {
+    margin-left: 0;
+  }
+
+  .footer-content {
+    padding: 2rem 1rem;
+  }
+
+  .footer-content img {
+    width: 15rem;
   }
 
   .footer-logo {
-    display: initial;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-text p {
+    margin-bottom: 0;
+  }
+  
 }
