@@ -56,7 +56,7 @@ section {
 /*----------- Bootstrap -----------*/
 .container {
   width: 100%;
-  max-width: 100%;
+  max-width: 100%; 
   /* padding: 0; */
 }
 
@@ -106,7 +106,9 @@ section {
 /*----------- Rotate Section -----------*/
 #rotate {
   width: 90vw;
+  max-width: 1150px;
 }
+
 
 #rotate .rotate-img {
   width: 100%;
@@ -117,7 +119,7 @@ section {
   display: none;
 }
 
-#rotate img {
+.rotate-img img {
   width: 100%;
 }
 
@@ -155,6 +157,10 @@ section {
   display: none;
 }
 
+.arrow {
+  display: none;
+}
+
 /* Rotate Selector */
 #rotate .rotate-selector {
   width: 100%;
@@ -185,6 +191,11 @@ section {
 /*----------- Highlights -----------*/
 #highlights {
   width: 90vw;
+  max-width: 1150px;
+}
+
+#highlights h3 {
+  display: none;
 }
 
 #highlights .highlight-img {
@@ -219,6 +230,7 @@ section {
 /*----------- News Section -----------*/
 #news-section {
   width: 90vw;
+  max-width: 1150px;
 }
 
 #news-section .news-article {
@@ -252,6 +264,7 @@ section {
 /*----------- Texts Section -----------*/
 #texts {
   width: 90vw;
+  max-width: 1150px;
 }
 
 #texts h3 {
@@ -274,6 +287,7 @@ section {
 /*----------- Arts Section -----------*/
 .art {
   width: 90vw;
+  max-width: 1150px;
 }
 
 .art h3 {

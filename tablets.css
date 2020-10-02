@@ -2,8 +2,8 @@
 /* Small devices (768px and up) */
 @media (min-width: 768px) {
   .container {
-    padding-left: 55px;
-    padding-right: 55px;
+    padding-left: 5.8rem;
+    padding-right: 5.8rem;
   }
   /*----------- Header -----------*/
   .page-header {
