@@ -113,6 +113,10 @@ section {
   position: relative;
 }
 
+#rotate .img-desktop {
+  display: none;
+}
+
 #rotate img {
   width: 100%;
 }
