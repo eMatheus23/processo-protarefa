@@ -375,6 +375,11 @@ footer {
   margin-left: 1rem;
 }
 
+.footer-link,
+.footer-content {
+  margin-left: 0;
+}
+
 .footer-content {
   width: 100%;
   background-color: var(--color-secondary-dark);
