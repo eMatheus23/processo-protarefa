@@ -41,17 +41,17 @@
     }
   
 
-    .page-header button {
+    .page-header .buttons a {
         width: 9.5rem;
 
         margin: 1.5rem;
 
     }
-    .page-header button img {
+    .page-header .buttons a img {
         width: 1.9rem;
     }
 
-    .page-header button p {
+    .page-header .buttons a p {
         display: initial;
 
         margin-bottom: 0;
@@ -94,6 +94,12 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+
+        transition: .3s;
+    }
+
+    .rotate-img button:hover {
+        background-color:var(--color-background-hover);
     }
 
     .arrow-left {
