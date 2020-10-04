@@ -1,0 +1,207 @@
+/* CSS - Cascading Style Sheets*/
+/* Large devices (992px and up) */
+
+@media (min-width: 992px) {
+    main {
+        margin-top: 16rem;
+    }
+
+    section {
+        margin-top: 5rem;
+    }
+
+    /*----------- Header -----------*/
+    .page-header {
+        height: 12rem;
+    
+    }
+
+    .page-header .header-menu {
+        width: 5rem;
+        left: 11rem;
+    }
+
+    .page-header .header-logo {
+        width: 24rem;
+        left: 80%;
+    }
+
+    .page-header .header-description {
+        padding-bottom: 3rem;
+    }
+
+    .header-description h2 {
+        margin-left: 8rem;
+        font-size: 1.7rem;
+    }
+
+    .page-header .buttons {
+      align-items: center;
+      padding-bottom: 0;
+    }
+  
+
+    .page-header .buttons a {
+        width: 9.5rem;
+
+        margin: 1.5rem;
+
+    }
+    .page-header .buttons a img {
+        width: 1.9rem;
+    }
+
+    .page-header .buttons a p {
+        display: initial;
+
+        margin-bottom: 0;
+        margin-left: .6rem;
+
+        color: #385490;
+        font-size: 1rem;
+    }
+
+    /*----------- Rotate Section -----------*/
+    #rotate .img-desktop {
+        display: initial;
+    }
+
+    #rotate .img-mobile {
+        display: none;
+    }
+
+    .arrows {
+        display: initial;
+    }
+
+    .arrows img {
+        width: 2.6rem;
+    }
+
+    .rotate-img button {
+        background-color: var(--color-background-white);
+
+        width: 5.8rem;
+        height: 5.8rem;
+        border-radius: 100%;
+        border: 0;
+        box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.2);
+    
+        padding: 0;
+        margin: 0.5rem;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        transition: .3s;
+    }
+
+    .rotate-img button:hover {
+        background-color:var(--color-background-hover);
+    }
+
+    .arrow-left {
+        position: absolute;
+        left: -3.4rem;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    .arrow-right {
+        position: absolute;
+        right: -3.4rem;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
+    /* Rotate Selector */
+    #rotate .rotate-selector {
+        margin: 1.5rem 0;
+    }
+    #rotate .rotate-dots {
+        width: 10px;
+        height: 10px;
+    }
+    
+    /*----------- Highlights -----------*/
+    #highlights h3 {
+        display: initial;
+        font-size: 2.8rem;
+        margin-bottom: 2.2rem;
+    }
+
+    /*----------- Ads Section -----------*/
+    #ads-section-desktop {
+        margin-right: -30px;
+    }
+
+    #ads-section-desktop p {
+        font-size: 1.2rem;
+        opacity: 60%;
+      
+        line-height: 1.8rem;
+
+        margin-bottom: .5rem;
+    }
+
+    .notad-desktop {
+        display: initial;
+    }
+
+    .more-padding {
+        padding-right: 7%;
+    }
+    
+
+    /*----------- News Section -----------*/
+    #ads-section-desktop {
+        display: initial;
+    }
+
+    #news-section h3 {
+        font-size: 2.8rem;
+        margin-bottom: 0;
+    }
+      
+    #ads-section-mobile {
+        display: none;
+    }
+
+    /*----------- Arts Section -----------*/
+    .art .extra-margin {
+        margin-top: 0;
+    }
+
+    /*----------- Texts Section -----------*/
+    .max-width {
+        width: 90vw;
+        max-width: 1150px;
+    }
+
+    /*----------- Footer -----------*/
+    footer {
+        margin-top: 30rem;
+    }
+
+    .footer-link {
+        padding: 1.4rem 8rem;
+    }
+
+    .footer-link a {
+        font-weight: 500;
+    }
+
+    .footer-content {
+        padding: 2rem 1rem;
+    }
+
+    .footer-text p {
+        font-size: 1.3rem;
+    }
+
+    footer .col-md-9 {
+        padding-right: 23rem;
+    }
+}
