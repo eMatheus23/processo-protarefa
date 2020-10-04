@@ -132,15 +132,77 @@
         margin-bottom: 2.2rem;
     }
 
-    /*----------- Adds Section -----------*/
+    /*----------- Ads Section -----------*/
+    #ads-section-desktop {
+        margin-right: -30px;
+    }
+
+    #ads-section-desktop p {
+        font-size: 1.2rem;
+        opacity: 60%;
+      
+        line-height: 1.8rem;
+
+        margin-bottom: .5rem;
+    }
+
     .notad-desktop {
         display: initial;
     }
 
+    .more-padding {
+        padding-right: 7%;
+    }
+    
+
     /*----------- News Section -----------*/
+    #ads-section-desktop {
+        display: initial;
+    }
+
     #news-section h3 {
         font-size: 2.8rem;
         margin-bottom: 0;
-      }
+    }
       
+    #ads-section-mobile {
+        display: none;
+    }
+
+    /*----------- Arts Section -----------*/
+    .art .extra-margin {
+        margin-top: 0;
+    }
+
+    /*----------- Texts Section -----------*/
+    .max-width {
+        width: 90vw;
+        max-width: 1150px;
+    }
+
+    /*----------- Footer -----------*/
+    footer {
+        margin-top: 30rem;
+    }
+
+    .footer-link {
+        padding: 1.4rem 8rem;
+    }
+
+    .footer-link a {
+        font-weight: 500;
+    }
+
+    .footer-content {
+        padding: 2rem 1rem;
+    }
+
+    .footer-text p {
+        font-size: 1.3rem;
+    }
+
+    footer .col-md-9 {
+        padding-right: 23rem;
+        max-width: 935px;
+    }
 }

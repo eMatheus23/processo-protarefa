@@ -104,7 +104,7 @@
   }
 
   /*----------- News Section -----------*/
-  #news-section p {
+  #news-section .news-description {
     height: 10rem;
   }
 
