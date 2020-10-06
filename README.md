@@ -31,7 +31,7 @@ O objetivo do desafio era criar o HTML/CSS responsivo com base no layout apresen
 O projeto está hospedado no GitHub Pages, neste [link](https://ematheus23.github.io/processo-protarefa/). 
 
 ## Status
-Project is: _finished_
+Projeto está: _finalizado_
 
 ## Contato
 Criado por [@eMatheus23](https://github.com/eMatheus23/), caso queira, entre em contato comigo pelo e-mail: [elias.matheus@hotmail.com](elias.matheus@hotmail.com)
